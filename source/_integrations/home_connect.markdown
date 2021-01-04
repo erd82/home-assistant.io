@@ -34,6 +34,7 @@ Note that it depends on the appliance and on API permissions which of the featur
 
 - Application ID: Home Assistant (or whatever name makes sense to you)
 - OAuth Flow: Authorization Code Grant Flow
+- Home Connect User Account for Testing: email address of your original Home Connect App (alternatively you can maintain the "Home Connect User Account" in your developer account details)
 - Redirect URI: "`<INTERNAL_HOME_ASSISTANT_URL>/auth/external/callback`
   Use your internal Home Assistant URL, if you didn't configure one manually, use your local IP address. Examples: `http://192.168.0.2:8123/auth/external/callback`, `http://homeassistant.local:8123/auth/external/callback`."
 
